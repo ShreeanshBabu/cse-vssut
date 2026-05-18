@@ -6,6 +6,11 @@ import { ensureFacultySeed } from './src/utils/ensureFacultySeed.js';
 
 const PORT = Number(process.env.PORT) || 5000;
 
+const serverlessApp = async (req, res) => {
+  await connectDB();
+  return app(req, res);
+};
+
 connectDB()
   .then(() => ensureFacultySeed())
   .catch((err) => {
@@ -18,7 +23,7 @@ if (process.env.NODE_ENV !== 'production') {
   });
 }
 
-export default app;
+export default serverlessApp;
 
 process.on('unhandledRejection', (reason) => {
   logger.error('Unhandled promise rejection', { reason });

@@ -2,8 +2,10 @@ import mongoose from 'mongoose';
 import { logger } from '../utils/logger.js';
 import { validateCriticalEnv } from './validateEnv.js';
 
-const MAX_RETRIES = 3;
-const RETRY_DELAY_MS = 5000;
+const MAX_RETRIES = 2;
+const RETRY_DELAY_MS = 1000;
+
+let isConnected = false;
 
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -13,6 +15,11 @@ function delay(ms) {
  * Connect to MongoDB with retry logic and connection event handlers.
  */
 export async function connectDB() {
+  if (isConnected) {
+    logger.info('Using existing MongoDB connection');
+    return;
+  }
+
   validateCriticalEnv();
   const uri = process.env.MONGODB_URI?.trim();
   if (!uri) {
@@ -56,6 +63,7 @@ export async function connectDB() {
         socketTimeoutMS: 45000,
       });
       logger.info('MongoDB connected');
+      isConnected = true;
       return;
     } catch (err) {
       lastError = err;
