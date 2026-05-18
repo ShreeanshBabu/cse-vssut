@@ -1,0 +1,88 @@
+/**
+ * Distinguished alumni of VSSUT (from vssut.ac.in homepage).
+ * Portrait URLs use official VSSUT CDN where available.
+ */
+export const alumniData = [
+  {
+    id: 1,
+    name: 'Er. Sujeet Kumar',
+    batch: '1998',
+    role: 'Member of Parliament',
+    company: 'Rajya Sabha',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/7870/7gYfZ2dN7CVyGb6O.jpg',
+    description:
+      'VSSUT alumnus; Member of Parliament, Rajya Sabha, representing Odisha.',
+  },
+  {
+    id: 2,
+    name: 'Prof. Manoranjan Parida',
+    batch: '1985',
+    role: 'Director',
+    company: 'CSIR–Central Road Research Institute',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/7868/L9J4Lx6NcCAnsRqD.jpg',
+    description: 'Director, CSIR-CRRI — transportation engineering leader.',
+  },
+  {
+    id: 3,
+    name: 'Nivedita Rath',
+    batch: '1995',
+    role: 'Group Executive',
+    company: 'Lloyds Banking Group',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/163/bcEZcaf63gw0tCFk.jpg',
+    description: 'Senior leader at one of the UK\'s largest financial services groups.',
+  },
+  {
+    id: 4,
+    name: 'Er. Ashesh Padhy',
+    batch: '1992',
+    role: 'Executive Vice President',
+    company: 'JSW Steel (Odisha Project)',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/162/UwJ8cfkswhpEbA5K.jpg',
+    description: 'Head of Odisha projects at JSW Steel.',
+  },
+  {
+    id: 5,
+    name: 'Er. Renubala Mohanty',
+    batch: '1967',
+    role: 'Retd. General Manager',
+    company: 'L&T',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/161/JbjVqDp06DHlGAhI.jpg',
+    description: 'First lady engineer in Odisha (1967); retired GM at L&T.',
+  },
+  {
+    id: 6,
+    name: 'Dr. Binay Kumar Das',
+    batch: '1987',
+    role: 'Ex-Director',
+    company: 'ITR, DRDO Chandipur',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/160/GzNhuD76i6IwljU1.jpg',
+    description: 'Former Director, Integrated Test Range, DRDO.',
+  },
+  {
+    id: 7,
+    name: 'Prof. Krishna Dev Kumar',
+    batch: '1990',
+    role: 'Professor & Canada Research Chair',
+    company: 'Toronto Metropolitan University, Canada',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/159/uSzctjFkTFPLu8s1.jpg',
+    description: 'Canada Research Chair in Space Systems.',
+  },
+  {
+    id: 8,
+    name: 'Er. Jagdish Mahapatra',
+    batch: '1994',
+    role: 'Managing Director, India & SAARC',
+    company: 'McAfee',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/158/uxbLVCmQmj7G6CCh.jpg',
+    description: 'Cybersecurity business leader for India and SAARC.',
+  },
+  {
+    id: 9,
+    name: 'Er. Nalini Kanta Pradhan',
+    batch: '1980',
+    role: 'Member of Legislative Assembly',
+    company: 'Odisha',
+    imageUrl: 'https://d2fg70os21r9ma.cloudfront.net/157/Z81o7wItN3ZTtuyP.jpg',
+    description: 'Eminent VSSUT alumnus and MLA in Odisha.',
+  },
+];

@@ -1,0 +1,26 @@
+{
+  "name": "technova-hackathon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CSE VSSUT — Digital Department Challenge (server + frontend)",
+  "workspaces": [
+    "server",
+    "Frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,web -c cyan,magenta \"npm run dev -w cse-vssut-server\" \"npm run dev -w cse-vssut-frontend\"",
+    "dev:server": "npm run dev -w cse-vssut-server",
+    "dev:web": "npm run dev -w cse-vssut-frontend",
+    "build": "npm run build -w cse-vssut-frontend",
+    "start": "npm run start -w cse-vssut-server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^1.8.0"
+  }
+}

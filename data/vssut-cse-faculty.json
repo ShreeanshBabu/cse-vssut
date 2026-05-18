@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Prof. Amiya Kumar Rath",
+    "designation": "Professor (On Deputation / On Lien)",
+    "email": "amiyaamiya@rediffmail.com",
+    "phone": "+91 9437577560",
+    "researchAreas": ["Computer Science", "Systems Management", "Leadership"],
+    "displayOrder": 1
+  },
+  {
+    "name": "Prof. Manas Ranjan Kabat",
+    "designation": "Professor (On Lien)",
+    "email": "manas_kabat@yahoo.com",
+    "phone": "+91 9861173326",
+    "researchAreas": ["Algorithms", "Computer Science"],
+    "displayOrder": 2
+  },
+  {
+    "name": "Prof. Himansu Sekhar Behera",
+    "designation": "Professor & Head of Department",
+    "email": "headcse@vssut.ac.in",
+    "phone": "+91 7978467239",
+    "researchAreas": ["Computer Science", "Data Mining", "Soft Computing"],
+    "displayOrder": 3
+  },
+  {
+    "name": "Dr. Suvasini Panigrahi",
+    "designation": "Associate Professor",
+    "email": "spanigrahi_cse@vssut.ac.in",
+    "phone": "7978030253",
+    "researchAreas": ["Network Security", "Computer Science"],
+    "displayOrder": 4
+  },
+  {
+    "name": "Dr. Sucheta Panda",
+    "designation": "Associate Professor",
+    "email": "suchetapanda_mca@vssut.ac.in",
+    "phone": "9437342871",
+    "researchAreas": ["Cloud Computing", "Computer Science"],
+    "displayOrder": 5
+  },
+  {
+    "name": "Dr. Manas Ranjan Senapati",
+    "designation": "Associate Professor",
+    "email": "mrsenapati_it@vssut.ac.in",
+    "phone": "7008407737",
+    "researchAreas": ["Machine Learning", "Information Technology"],
+    "displayOrder": 6
+  },
+  {
+    "name": "Dr. Pradip Kumar Sahu",
+    "designation": "Associate Professor (On Lien)",
+    "email": "pksahu_it@vssut.ac.in",
+    "phone": "9437141295",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 7
+  },
+  {
+    "name": "Dr. Satyabrata Das",
+    "designation": "Associate Professor",
+    "email": "sb_das@vssut.ac.in",
+    "phone": "9437177717",
+    "researchAreas": ["Information Technology", "ICT"],
+    "displayOrder": 8
+  },
+  {
+    "name": "Dr. Satya Prakash Sahoo",
+    "designation": "Assistant Professor",
+    "email": "spsahoo_cse@vssut.ac.in",
+    "phone": "+91 9437442086",
+    "researchAreas": ["Database Systems", "Computer Science"],
+    "displayOrder": 9
+  },
+  {
+    "name": "Dr. D. Chandrasekhar Rao",
+    "designation": "Assistant Professor (On Lien)",
+    "email": "dcrao_it@vssut.ac.in",
+    "phone": "9337724582",
+    "researchAreas": ["Distributed Systems", "Computer Science"],
+    "displayOrder": 10
+  },
+  {
+    "name": "Dr. Kishore Kumar Sahu",
+    "designation": "Assistant Professor",
+    "email": "kksahu_it@vssut.ac.in",
+    "phone": "9437513144",
+    "researchAreas": ["Networking", "Computer Science"],
+    "displayOrder": 11
+  },
+  {
+    "name": "Dr. Sanjib Kumar Nayak",
+    "designation": "Assistant Professor",
+    "email": "sknayak_ca@vssut.ac.in",
+    "phone": "8249715656",
+    "researchAreas": ["Data Science", "Information Technology"],
+    "displayOrder": 12
+  },
+  {
+    "name": "Dr. Sasmita Acharya",
+    "designation": "Assistant Professor",
+    "email": "sacharya_mca@vssut.ac.in",
+    "phone": "9437230871",
+    "researchAreas": ["Software Engineering", "Computer Science"],
+    "displayOrder": 13
+  },
+  {
+    "name": "Ms. Sasmita Behera",
+    "designation": "Assistant Professor",
+    "email": "sbehera_cse@vssut.ac.in",
+    "phone": "+91 9437082376",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 14
+  },
+  {
+    "name": "Dr. Sumitra Kisan",
+    "designation": "Assistant Professor (On Lien)",
+    "email": "skisan_cse@vssut.ac.in",
+    "phone": "9178137137",
+    "researchAreas": ["Information Systems", "Computer Science"],
+    "displayOrder": 15
+  },
+  {
+    "name": "Mr. Sujaya Kumar Sathua",
+    "designation": "Assistant Professor",
+    "email": "kumarsujaya@gmail.com",
+    "phone": "+91 8093740286",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 16
+  },
+  {
+    "name": "Mrs. Etuari Oram",
+    "designation": "Assistant Professor",
+    "email": "etuari.oram@gmail.com",
+    "phone": "9861980780",
+    "researchAreas": ["Parallel Computing", "Computer Science"],
+    "displayOrder": 17
+  },
+  {
+    "name": "Dr. Bighnaraj Naik",
+    "designation": "Assistant Professor",
+    "email": "bnaik_mca@vssut.ac.in",
+    "phone": "7978401366",
+    "researchAreas": ["Computational Intelligence", "Engineering"],
+    "displayOrder": 18
+  },
+  {
+    "name": "Dr. Gyanaranjan Shial",
+    "designation": "Assistant Professor",
+    "email": "gshial_cse@vssut.ac.in",
+    "phone": "9337605473",
+    "researchAreas": ["Machine Learning", "Computer Science"],
+    "displayOrder": 19
+  },
+  {
+    "name": "Dr. Pradipta Kumar Das",
+    "designation": "Assistant Professor",
+    "email": "daspradipta78@gmail.com",
+    "phone": "+91 8480142375",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 20
+  },
+  {
+    "name": "Mr. Atul Vikas Lakra",
+    "designation": "Assistant Professor",
+    "email": "avlakra_it@vssut.ac.in",
+    "phone": "8984336093",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 21
+  },
+  {
+    "name": "Dr. Suresh Kumar Srichandan",
+    "designation": "Assistant Professor",
+    "email": "suresh.vssut15@gmail.com",
+    "phone": "7008433924",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 22
+  },
+  {
+    "name": "Ms. Alina Mishra",
+    "designation": "Assistant Professor",
+    "email": "alinamishra88@gmail.com",
+    "phone": "9438255414",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 23
+  },
+  {
+    "name": "Dr. (Mrs.) Santi Behera",
+    "designation": "Assistant Professor",
+    "email": "b.santibehera@gmail.com",
+    "phone": "7504017604",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 24
+  },
+  {
+    "name": "Mrs. Alina Dash",
+    "designation": "Assistant Professor",
+    "email": "alinadash_cse@vssut.ac.in",
+    "phone": "9861353984",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 25
+  },
+  {
+    "name": "Dr. Kshiramani Naik",
+    "designation": "Assistant Professor",
+    "email": "kshiramani@gmail.com",
+    "phone": "+91 9438549273",
+    "researchAreas": ["Computer Science", "Engineering"],
+    "displayOrder": 26
+  }
+]
