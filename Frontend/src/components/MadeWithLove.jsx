@@ -4,7 +4,7 @@ export function MadeWithLove({ compact = false }) {
   return (
     <div className={`made-with-love ${compact ? 'made-with-love--compact' : ''}`}>
       <p className="made-with-love__lead">
-        Made with <span className="made-with-love__heart" aria-label="love">♥</span> by
+        Developed by
       </p>
       <ul className="made-with-love__names">
         {TEAM_CREDITS.map((name) => (
