@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@shared-data': path.resolve(rootDir, '../data'),
+      '@shared-data': path.resolve(rootDir, './src/data'),
     },
   },
   server: {
